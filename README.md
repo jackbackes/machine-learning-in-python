@@ -16,4 +16,4 @@ Next, open Chrome and navigate to localhost:8888
 
 # Workshops
 
-Numpy Tutorial
+[Numpy Tutorial](tutorials/NUMPY.md)
