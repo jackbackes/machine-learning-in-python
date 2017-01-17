@@ -21,4 +21,4 @@ Open Chrome and navigate to localhost:8888
 
 # Contribution Instructions
 
-## Every commit should have a corresponding issue, in the format: `GHUB-<issue number>: <description>`. Run `git rebase master -i` before merging, rather than `git merge` to ensure a single trunk line of development. To the extent possible, a single issue should have a single commit, and each commit should consist of finished code. Please rebase-fixup multiple commits before issuing a pull request.
+Every commit should have a corresponding issue, in the format: `GHUB-<issue number>: <description>`. Run `git rebase master -i` before merging, rather than `git merge` to ensure a single trunk line of development. To the extent possible, a single issue should have a single commit, and each commit should consist of finished code. Please rebase-fixup multiple commits before issuing a pull request.
