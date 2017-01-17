@@ -1,0 +1,5 @@
+#!/bin/bash
+
+IMAGE=$1
+
+docker run -i -p 8888:8888 -t -v `git rev-parse --show-toplevel`/data/notebooks:/opt/notebooks $IMAGE /bin/bash -c "jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port='8888' --no-browser"

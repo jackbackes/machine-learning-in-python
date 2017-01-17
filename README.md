@@ -7,17 +7,17 @@ Required:
 
 ```
 git clone https://github.com/thejohnbackes/machine-learning-in-python.git
+cd machine-learning-in-python
 docker build .
 docker images      # take note of your image hash
-docker run -i -p 8888:8888 -t -v `pwd`/data/notebooks:/opt/notebooks <image-hash>    # where <image-hash> is your image hash
+. ./bin/run <image-hash>    # where <image-hash> is your image hash from the previous step
 ```
 
-Next, open Chrome and navigate to localhost:8888
+Open Chrome and navigate to localhost:8888
 
 # Workshops
 
 [Numpy Tutorial](tutorials/NUMPY.md)
-
 
 # Contribution Instructions
 
